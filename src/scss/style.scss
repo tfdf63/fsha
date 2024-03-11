@@ -1,0 +1,39 @@
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+
+* {
+  font-family: 'IBM Plex Mono';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1720px;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background-color: $main-color;
+  margin: 25px auto 0 auto;
+}
+
+@import 'promo';
+@import 'title';
+@import 'button';
+@import 'menu';
+@import 'about';
+@import 'resume';
+@import 'skills';
+@import 'portfolio';
+@import 'price';
+@import 'contacts';
+@import 'policy';
+@import 'media';
